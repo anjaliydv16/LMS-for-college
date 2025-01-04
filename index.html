@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyCollege Library Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>MyCollege Library Management System</h1>
+    </header>
+    <main>
+        <section class="form-section">
+            <h2>Enroll in a Course</h2>
+            <form id="enrollmentForm">
+                <label for="studentName">Student Name:</label>
+                <input type="text" id="studentName" required>
+                
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" required>
+                
+                <label for="fatherName">Father's Name:</label>
+                <input type="text" id="fatherName" required>
+                
+                <label for="section">Section:</label>
+                <input type="text" id="section" required>
+                
+                <label for="courseName">Course Name:</label>
+                <input type="text" id="courseName" required>
+                
+                <button type="submit">Enroll</button>
+            </form>
+        </section>
+        <section class="courses-section">
+            <h2>Available Courses</h2>
+            <ul id="courseList">
+                <li>B.Tech</li>
+                <li>M.Tech</li>
+                <li>B.sc</li>
+                <li>M.sc</li>
+                <li>B.com</li>
+                <li>BBA</li>
+                <li>MBA</li>
+                <li>LLB</li>
+            </ul>
+        </section>
+        <section class="students-section">
+            <h2>Enrolled Students</h2>
+            <ul id="studentList"></ul>
+        </section>
+        <section class="info-section">
+            <h2>Student Details</h2>
+            <div id="studentDetails"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Compiler charishma Learning Management System
+            (anjali-arya-prerna-smriti)
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
